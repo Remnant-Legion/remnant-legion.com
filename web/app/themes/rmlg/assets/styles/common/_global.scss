@@ -1,1 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto|Rye);
+
+html body {
+  background-color: lighten($offWhite, 10);
+  background: url('/app/themes/rmlg/dist/images/raven.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, span, td {
+  font-family: $roboto;
+}
+
+.wrap.container {
+    padding-top: $headerHeight;
+}
 

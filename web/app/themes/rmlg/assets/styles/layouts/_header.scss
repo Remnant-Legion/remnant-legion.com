@@ -1,0 +1,61 @@
+.banner nav.navbar {
+  background-color: $darkBlue;
+  max-height: 50px;
+  min-height: 50px;
+  &.mobile {
+  }
+
+  .logo {
+    float: left;
+    height: 50px;
+    max-height: 50px;
+    padding: 3px;
+    margin-left: 20px;
+  }
+
+  .logo-text {
+    float: left;
+    font-size: 3.3rem;
+    color: $offWhite;
+    padding-left: 1vw;
+    font-family: $rye;
+
+    @media(max-width: $screen-xs-max){
+      margin-top: 8px;
+      font-size: 2.6rem;
+    }
+  }
+
+  .nav.navbar-nav {
+    margin-right: 3.5vw;
+    padding-bottom: 5px;
+
+
+    &.navbar-lower {
+      background-color: darken($darkBlue, 3);
+      margin: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      li {
+        width: 17vw;
+        float: left;
+      }
+    }
+
+    li a {
+      margin: 0;
+      color: $grey;
+      font-size: 1.5rem;
+      &:hover {
+        background-color: $offWhite;
+        font-weight: bold;
+        color: $darkBlue;
+      }
+
+      @media(max-width: $screen-xs-max){
+        font-size: 1rem;
+        line-height: inherit;
+      }
+    }
+  }
+}
