@@ -2,11 +2,26 @@
 
 html body {
   background-color: $darkBlue;
-  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li, span, td {
   font-family: $roboto;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.ghost {
+  position: absolute;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
 }
 
 .wrap.container {
@@ -14,8 +29,26 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, td {
     padding-top: $headerHeight;
     margin: 0;
     width: 100%;
+    min-height: 100%;
+    margin-bottom: -40px;
+
+    &:after {
+      content: "";
+      display: block;
+    }
+
+  .content.row {
+    margin: 0;
+  }
 }
 
+footer, .wrap.container:after {
+  height: 40px;
+}
+
+.row {
+  margin: 0;
+}
 
 
 

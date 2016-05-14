@@ -1,0 +1,35 @@
+.jumbotron {
+  display: block;
+  position: relative;
+  height: 60vh;
+  min-height: 50vh;
+  background: url('/app/themes/rmlg/dist/images/raven.jpg') no-repeat center -25vh fixed;
+  background-size: cover;
+  border-radius: 0px!important;
+  margin: 0;
+
+  h1, h2, h3 {
+    font-family: $montserrat;
+    color :$offWhite;
+  }
+
+  h3 {
+    position: absolute;
+    padding: 2vh;
+    bottom: 1vh;
+    left: 3vw;
+    font-style: italic;
+  }
+}
+
+.about-us {
+  min-height: 45vh;
+  background-color: desaturate($offWhite, 10);
+}
+
+.membership {
+  position: relative;
+  min-height: 55vh;
+  background: url('/app/themes/rmlg/dist/images/dps.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
