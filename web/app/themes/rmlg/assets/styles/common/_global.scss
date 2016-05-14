@@ -1,9 +1,8 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto|Rye);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Rye|Montserrat);
 
 html body {
-  background-color: lighten($offWhite, 10);
-  background: url('/app/themes/rmlg/dist/images/raven.jpg') no-repeat center center fixed;
-  background-size: cover;
+  background-color: $darkBlue;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li, span, td {
@@ -11,6 +10,12 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, td {
 }
 
 .wrap.container {
+    padding: 0;
     padding-top: $headerHeight;
+    margin: 0;
+    width: 100%;
 }
+
+
+
 

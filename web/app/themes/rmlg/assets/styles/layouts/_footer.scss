@@ -1,0 +1,20 @@
+footer {
+  min-height: 40px;
+  background-color: $darkBlue;
+  p {
+    margin: 0;
+    color: darken($grey, 20);
+    padding-right: 1vw;
+    text-align: right;
+    line-height: 40px;
+    font-size: 10px;
+    font-family: $roboto;
+
+    a {
+      color: $grey;
+      &:hover {
+        color: $offWhite;
+      }
+    }
+  }
+}
