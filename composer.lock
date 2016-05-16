@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f16df06179cba8a5c3372baa99a2ea2",
+    "hash": "92ea068e998048a9449da74fa0cff9e9",
+    "content-hash": "e690558a65793732ca5abdad8f504520",
     "packages": [
         {
             "name": "composer/installers",
@@ -193,16 +194,16 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "8836fc53726466fea17137c2f2622d89de51cd67"
+                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/8836fc53726466fea17137c2f2622d89de51cd67",
-                "reference": "8836fc53726466fea17137c2f2622d89de51cd67",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
+                "reference": "0819fd764ca19ab880b8d9ed7a95ae4910f98f20",
                 "shasum": ""
             },
             "require": {
@@ -231,7 +232,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2015-12-31 12:34:29"
+            "time": "2016-05-08 17:14:32"
         },
         {
             "name": "roots/wp-password-bcrypt",
@@ -339,6 +340,46 @@
                 "environment"
             ],
             "time": "2016-04-15 10:48:49"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/4.4.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.7.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "0.9.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/0.9.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.0.9.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         }
     ],
     "packages-dev": [
