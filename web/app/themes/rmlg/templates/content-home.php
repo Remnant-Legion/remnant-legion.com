@@ -21,12 +21,15 @@ foreach(get_pages($args) as $page) {
 }
 
 ?>
+
 <div class="container-fluid home">
     <?php foreach($sections as $section): ?>
         <?php list($page, $image) = $section; ?>
         <section id="<?= $page->post_name ?>" class="<?= $page->post_name ?>" style="background-image: url('<?= $image; ?>')">
             <div class="ghost"></div>
-            <?= $page->post_content ?>
+            <div class="inner-content">
+                <?= apply_filters('the_content', $page->post_content) ?>
+            </div>
         </section>
     <?php endforeach; ?>
 </div>
