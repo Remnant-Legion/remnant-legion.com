@@ -1,13 +1,19 @@
-.jumbotron {
-  display: block;
+.home-page , .legion, .membership, .life {
   position: relative;
-  height: 60vh;
-  min-height: 50vh;
-  background: url('/app/themes/rmlg/dist/images/raven.jpg') no-repeat center -25vh fixed;
+  display: block;
+  float: left;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background: no-repeat center center fixed;
   background-size: cover;
-  border-radius: 0px!important;
   margin: 0;
 
+  padding: 10vh;
+}
+
+.home-page {
+  background: no-repeat center -25vh fixed;
   h1, h2, h3 {
     font-family: $montserrat;
     color :$offWhite;
@@ -20,16 +26,6 @@
     left: 3vw;
     font-style: italic;
   }
+
 }
 
-.about-us {
-  min-height: 45vh;
-  background-color: desaturate($offWhite, 10);
-}
-
-.membership {
-  position: relative;
-  min-height: 55vh;
-  background: url('/app/themes/rmlg/dist/images/dps.jpg') no-repeat center center fixed;
-  background-size: cover;
-}

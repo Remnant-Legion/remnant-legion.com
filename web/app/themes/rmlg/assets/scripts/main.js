@@ -12,12 +12,26 @@
 
 (function($) {
 
+  function resizeDivs(){
+    var setHeight = $(window).height() - (/*$('footer').height() +*/ $('header').height());
+    $('.home-page, .legion,.membership, .life')
+        .css('min-height', setHeight+'px')
+        .css('height', setHeight+'px');
+  }
+
   // Use this variable to set up the common and page specific functions. If you
   // rename this variable, you will also need to rename the namespace below.
   var Sage = {
     // All pages
     'common': {
       init: function() {
+
+        $(document).ready(function(){
+          resizeDivs();
+          $(window).resize(function(){
+            resizeDivs();
+          })
+        });
         // JavaScript to be fired on all pages
       },
       finalize: function() {
