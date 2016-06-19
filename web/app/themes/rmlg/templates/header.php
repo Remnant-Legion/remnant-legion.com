@@ -1,7 +1,7 @@
 <header class="banner">
     <div class="container">
         <nav class="navbar navbar-defualt navbar-fixed-top visible-xs mobile">
-            <a class="brand" href="<?= esc_url(home_url('/')); ?>">
+            <a class="brand" href="#home-page">
                 <img class="img-responsive logo" alt="<?php bloginfo('name'); ?>" src="<?= get_stylesheet_directory_uri();?>/dist/images/logo.png"/>
                 <span class="logo-text"><?php bloginfo('name'); ?></span>
             </a>
@@ -15,7 +15,7 @@
         </nav>
 
         <nav class="navbar navbar-defualt navbar-fixed-top hidden-xs">
-            <a class="brand" href="<?= esc_url(home_url('/')); ?>">
+            <a class="brand" href="$home-page">
                 <img class="img-responsive logo" alt="<?php bloginfo('name'); ?>" src="<?= get_stylesheet_directory_uri();?>/dist/images/logo.png"/>
                 <span class="logo-text"><?php bloginfo('name'); ?></span>
             </a>
