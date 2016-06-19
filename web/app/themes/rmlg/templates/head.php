@@ -5,6 +5,7 @@
   
   <script src="/app/themes/rmlg/dist/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
   <script src="/app/themes/rmlg/dist/bower_components/jStorage/jstorage.min.js"></script>
+  <script src="/app/themes/rmlg/dist/bower_components/font-awesome/css/font-awesome.min.css"></script>
   
     <link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/fav/apple-icon-60x60.png">

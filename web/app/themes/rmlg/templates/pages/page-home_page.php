@@ -14,13 +14,13 @@
     shuffle($images);
 ?>
 <div class="row">
-    <div class="col-sm-7">
+    <div class="col-md-7">
         <?= apply_filters('the_content', $page->post_content) ?>
         <button class="btn btn-default btn-join">
             Join Us
         </button>
     </div>
-    <div class="col-sm-5">
+    <div class="col-md-5">
         <div class="grid">
             <?php foreach($images as $i): ?>
                 <div class="grid-item">
@@ -34,7 +34,7 @@
     </div>
     <div class="col-xs-12">
         <?php if (strlen($bottom_field)): ?>
-            <h4 class="bottom-field"><?= $bottom_field ?></h4>
+            <h4 class="bottom-field"><i><?= $bottom_field ?></i></h4>
         <?php endif; ?>
     </div>
 </div>
