@@ -28,6 +28,10 @@
 </div>
 <div class="row">
     <div class="col-lg-12 text-center">
-        <h4><i>Ask not what The Legion can you for you - but what you can do for The Legion.</i></h4>
+        
+        <h4><i>
+                “All warfare is based on deception. Hence, when we are able to attack, we must seem unable; when using our forces, we must appear inactive; when we are near, we must make the enemy believe we are far away; when far away, we must make him believe we are near.”
+                <br>
+        <span class="small">― Sun Tzu, The Art of War</span></i></h4>
     </div>
 </div>
