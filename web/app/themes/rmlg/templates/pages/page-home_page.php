@@ -27,6 +27,9 @@
                     <img src="<?= $i?>"/>
                 </div>
             <?php endforeach; ?>
+            <div class="grid-item">
+                <img src="<?= get_stylesheet_directory_uri();?>/dist/images/mystery_man.png"/>
+            </div>
         </div>
     </div>
     <div class="col-xs-12">

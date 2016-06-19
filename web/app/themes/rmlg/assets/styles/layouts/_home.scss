@@ -38,16 +38,20 @@
   button.btn-join {
     display: block;
     position: relative;
-    color: $offWhite;
+    color: $darkBlue;
+    text-transform: uppercase;
     font-size: 3rem;
     margin: 0 auto;
     padding-left: 6vh;
     padding-right: 6vh;
-    background-color: $gold;
+    opacity: 0.8;
+    background-color: darken($gold, 10);
     border-color: lighten($gold, 20);
 
     &:hover {
       background-color: $darkBlue;
+      color:  $offWhite;
+      border-color: lighten($darkBlue, 20);
     }
     margin-bottom: 4vh;
   }
@@ -77,6 +81,9 @@
     height: 64px;
     border: 2px solid #333;
     border-color: hsla(0, 0%, 0%, 0.7);
+    img {
+      width: 64px;
+    }
   }
 }
 
