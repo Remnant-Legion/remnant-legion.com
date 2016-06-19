@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, td {
   background-color: black;
 }
 
+h4 {
+  color: lighten($offGrey, 20)!important;
+}
+
 .wrap.container {
     padding: 0;
     padding-top: $headerHeight;

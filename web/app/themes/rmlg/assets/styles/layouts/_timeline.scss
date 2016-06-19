@@ -9,12 +9,12 @@
   position: absolute;
   content: "";
   width: 2px;
-  background-color: #f1f1f1;
+  background-color: $offWhite;
   left: 40px;
   margin-left: -1.5px;
 }
 .timeline > li {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   position: relative;
   min-height: 50px;
 }
@@ -52,10 +52,10 @@
   height: 80px;
   position: absolute;
   z-index: 100;
-  background-color: #fed136;
+  background-color: $darkBlue;
   color: white;
   border-radius: 100%;
-  border: 7px solid #f1f1f1;
+  border: 7px solid $offWhite;
   text-align: center;
 }
 .timeline > li .timeline-image h4 {
@@ -99,7 +99,6 @@
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
