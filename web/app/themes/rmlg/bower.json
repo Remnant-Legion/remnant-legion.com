@@ -9,7 +9,8 @@
   "dependencies": {
     "bootstrap-sass": "3.3.6",
     "jquery": "^2.2.3",
-    "jStorage": "jstorage#^0.4.12"
+    "jStorage": "jstorage#^0.4.12",
+    "isotope": "^3.0.1"
   },
   "overrides": {
     "bootstrap-sass": {

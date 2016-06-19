@@ -9,11 +9,12 @@
   background-size: cover;
   margin: 0;
 
-  padding: 5vh;
+  padding: 2vh;
 }
 
 .home-page {
   background: no-repeat center -25vh fixed;
+  padding-top: 7vh;
   h1, h2, h3 {
     font-family: $montserrat;
     color :$offWhite;
@@ -27,5 +28,55 @@
     font-style: italic;
   }
 
+  p {
+    padding: 4vh;
+    font-size: 2.4rem;
+    line-height: 4rem;
+    text-align: center;
+  }
+
+  button.btn-join {
+    display: block;
+    position: relative;
+    color: $offWhite;
+    font-size: 3rem;
+    margin: 0 auto;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    background-color: $gold;
+    border-color: lighten($gold, 20);
+
+    &:hover {
+      background-color: $darkBlue;
+    }
+    margin-bottom: 4vh;
+  }
+
+  .bottom-field {
+    text-align: center;
+    padding: 4vh;
+  }
+
+  /* ---- grid ---- */
+  .grid {
+    background: transparent;
+  }
+
+  /* clear fix */
+  .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  /* ---- .grid-item ---- */
+
+  .grid-item {
+    float: left;
+    width: 65px;
+    height: 64px;
+    border: 2px solid #333;
+    border-color: hsla(0, 0%, 0%, 0.7);
+  }
 }
 
