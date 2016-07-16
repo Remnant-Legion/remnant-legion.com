@@ -14,6 +14,14 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, td {
   padding: 0;
 }
 
+a {
+  color : #c58000;
+
+  &:hover {
+    color: lighten(#c58000, 20%);
+  }
+}
+
 .ghost {
   position: absolute;
   opacity: 0.65;

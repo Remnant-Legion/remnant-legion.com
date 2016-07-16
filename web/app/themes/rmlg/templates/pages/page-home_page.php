@@ -16,9 +16,9 @@
 <div class="row">
     <div class="col-md-7">
         <?= apply_filters('the_content', $page->post_content) ?>
-        <button class="btn btn-default btn-join">
+        <a href="#membership" class="btn btn-default btn-join">
             Join Us
-        </button>
+        </a>
     </div>
     <div class="col-md-5">
         <div class="grid">

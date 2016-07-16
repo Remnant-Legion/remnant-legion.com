@@ -10,7 +10,6 @@
                     <li>MUST be a self sufficient scanner</li>
                     <li>Enjoys Wormhole life and PVP</li>
                     <li>Self starter</li>
-                    <li>Non-Criminal History</li>
                 </ul>
             </div>
             <div class="col-md-6">
@@ -23,10 +22,10 @@
             </div>
             <div class="col-xs-12">
                 <p>To proceed with your application login via eve SSO below</p>
-                <a href="">
+                <a href="/sso.php?auth=true">
                     <img class="center-block" src="<?= get_stylesheet_directory_uri();?>/dist/images/EVE_SSO_Login_Buttons_Large_Black.png"/>
                 </a> 
-                <p class="small">To learn more about SSO please <a href="">click here</a></p>
+                <p class="small">To learn more about SSO please <a href="https://community.eveonline.com/news/dev-blogs/eve-online-sso-and-what-you-need-to-know/">click here</a></p>
             </div>
         </div>
     </div>
