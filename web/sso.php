@@ -13,7 +13,6 @@ $request = Request::createFromGlobals();
 $sso = new SSOService();
 
 if ($request->query->get('code')){
-    
     try {
         $characterData = $sso->callbackAction($request);
         echo require(__DIR__.'/../memberForm.php');
@@ -21,9 +20,10 @@ if ($request->query->get('code')){
         $response = new RedirectResponse('/');
         $response->send();
     }
-}
-
-if ($request->query->get('auth')){
+} else if ($request->query->get('auth')){
     $sso->redirectAction()->send();
+} else {
+    $response = new RedirectResponse('/');
+    $response->send();
 }
 

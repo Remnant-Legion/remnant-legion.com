@@ -2,7 +2,16 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-43407026-3', 'auto');
+    ga('send', 'pageview');
+
+  </script>
   <script src="/app/themes/rmlg/dist/bower_components/isotope/dist/isotope.pkgd.min.js"></script>
   <script src="/app/themes/rmlg/dist/bower_components/jStorage/jstorage.min.js"></script>
   <script src="/app/themes/rmlg/dist/bower_components/font-awesome/css/font-awesome.min.css"></script>
